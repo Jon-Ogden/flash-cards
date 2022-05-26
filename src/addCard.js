@@ -14,7 +14,7 @@ function submit(e){
 
 }
     return(
-        <form>
+        <form className="form">
             <title>Add Card</title>
             <label>Question</label>
             <input type="text" id="question" name="question" size={50} value={question} onChange={(e)=>{setQuestion(e.target.value)}}></input><br/>
