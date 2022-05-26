@@ -1,17 +1,16 @@
 
 .all{
-  display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 10px;
-}
-
-
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  
 .card{
-  background-color:rgb(57, 188, 232);
-  border: 5px solid black;
-  padding: 20px;
-  font-size: 15px;
-  text-align: center;
-  border-radius: 5px;
-  cursor: pointer;
-}
+    background-color: rgb(57, 188, 232);
+    border: 5px solid black;
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 5px;
+  }
+
