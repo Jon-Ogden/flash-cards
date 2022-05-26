@@ -8,8 +8,10 @@ function App() {
   const [state, setState] = useState(true)
   useEffect(()=>{},[state])
   return (
+    <div>
     <div className='all'>
     <RenderCards />
+    </div>
     <Form 
     setState = {setState}
     state = {state}
