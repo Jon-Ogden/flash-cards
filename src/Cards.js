@@ -3,7 +3,6 @@ import arrayOfQuestions from "./Array";
 
 const RenderCards = () => {
     return( arrayOfQuestions.map((current) => {
-        console.log(current.answer)
         return <Card
         key={current.id}
         id={current.id}
