@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .app {
   font-family: sans-serif;
   text-align: center;
@@ -15,3 +16,20 @@
   gap: 1px;
   grid-template-columns: repeat(3, 1fr);
 }
+=======
+.all{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+
+.card{
+  background-color: solid rgb(57, 188, 232);
+  border: 5px solid black;
+  padding: 20px;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 5px;
+}
+>>>>>>> efe5290b29170acae6eb614f7d365bdbe2c31b3e
