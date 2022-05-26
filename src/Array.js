@@ -1,4 +1,4 @@
-const arrayOfquestions = () => {
+
   const array = [
     { id: 1, question: "What are two things you can never eat for breakfast?", answer:'Lunch and Dinner',correct:false },
     { id: 2, question: "What is always coming but never arrives? ", anwser: "Tomorrow",correct:false },
@@ -11,5 +11,5 @@ const arrayOfquestions = () => {
     { id: 9, question: "What goes up but never ever comes down?", anwser: "Your age",correct:false },
     { id: 10, question: "What can one catch that is not thrown?", anwser: "A Cold",correct:false },
   ];
-}
+
 
